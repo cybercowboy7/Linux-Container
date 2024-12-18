@@ -1,0 +1,11 @@
+
+INSTALLING LXC
+
+sudo apt-get install lxc lxc-utils -y
+
+
+CREATING AN LXC CONTAINER
+
+sudo lxc-create -n linuxcontainer -t kali
+    - linuxcontainer is the container name
+
